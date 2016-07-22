@@ -1,0 +1,491 @@
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
+#content_wrapper  {
+	margin-top: 95px;
+}
+    
+
+
+/*------------------------------------------*/
+/*	 Headers
+/*------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0; 
+	margin-bottom: 10px;
+	font-family:sans-serif;
+	color:#2c89c5;
+}
+
+/*------------------------------------------*/
+/*	 Lists
+/*------------------------------------------*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*------------------------------------------*/
+/*	 Link Setting
+/*------------------------------------------*/
+
+a {
+	text-decoration: none;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+a:hover {
+	color: #6699CC;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #FFF;
+	outline: none;
+	border: none;
+	text-decoration: none;
+} 
+
+
+/*------------------------------------------*/
+/*	 Section Titlebar Settings
+/*------------------------------------------*/
+
+.titlebar {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.titlebar h2 {
+	color: #2c89c5;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size:48px;
+	margin-bottom: 5px;
+}
+
+.titlebar p {
+	color: #444;
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 0 5%;
+} 
+
+
+
+/* ==========================================================================
+   02. HEADER & NAVIGATION
+   ========================================================================== */
+.head_text h2{font-size: 36px;
+    font-weight: 100;
+    margin-top: 20px;}
+/*------------------------------------------*/
+/*	 Logo Image    
+/*------------------------------------------*/
+
+.navbar-brand {
+	padding: 10px 15px;
+	
+}  
+     
+/*------------------------------------------*/
+/*	 Navigation Menu    
+/*------------------------------------------*/
+
+.navbar {	
+	margin-bottom: 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	min-height:95px;
+}
+.navbar-nav {margin-top:15px;}
+
+.navbar-fixed-top { 
+	background-color:#2E2E2E;
+	
+}
+
+.navbar-nav > li > a {
+	color: #999;
+	font-size: 15px;
+	font-family:  sans-serif;
+	line-height: 65px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 15px;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
+}
+.nav > li > a:hover, .nav > li > a:focus{background-color:#2E2E2E;}
+/*------------------------------------------*/
+/*	 Menu Hover
+/*------------------------------------------*/
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.selected-nav {
+	color: #429cd5;
+	background-color: transparent;
+}
+
+/*------------------------------------------*/
+/*	 Responsive Menu    
+/*------------------------------------------*/
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+	background-color: none;
+    padding: 10px;
+	margin: 13px 30px 13px 0;
+	border: none;
+	color: #fff;
+	background-color:#429cd5;
+	border: 2px solid #429cd5;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+
+
+/* ==========================================================================
+   03. INTRO
+   ========================================================================== */
+.container1{width:100%}
+/*------------------------------------------*/
+/*	 Intro Basic Settings
+/*------------------------------------------*/
+
+#intro { 
+    background-image: url("../img/bannerbg.jpg"); 
+    background-attachment: fixed !important;
+	color: #fff;
+	padding:20px 0 40px 0;
+	
+}
+#intro img{ clear: both;  margin: auto;}
+
+
+/* ==========================================================================
+   04. FEATURES LIST
+   ========================================================================== */
+
+#features {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}  
+
+.features .abtimg {
+    float: right;
+}
+.feature-wrap {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.feature-wrap p {
+    color: #929192;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 45px 35px 0;
+}
+.data_analyze p {
+    padding-top: 8em !important;
+}
+.contact_more p {
+    color: #929192;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 0 35px;
+}
+/* ==========================================================================
+   05. PROMO BANNER 
+   ========================================================================== */
+   
+#promo-banner {
+	background-image: url(../img/thumbs/pattern.png);
+	background-color: #eee;	
+	background-repeat: repeat;
+	background-position: 0 0;
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+#promo-banner h1 {
+	color: #999;
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+#promo-banner h3 {
+	color: #999;
+	margin-bottom: 30px;
+}
+
+#promo-banner .img-responsive {
+	display: inline-block;
+}
+
+
+/* ==========================================================================
+   06. ABOUT
+   ========================================================================== */
+
+#about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#about h3 {
+	color: #999;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 20px;	
+}
+
+/*------------------------------------------*/
+/*	Our Philosophy
+/*------------------------------------------*/
+
+#our-philosophy {
+	margin-bottom: 50px;
+}
+
+#our-philosophy h4 {
+	color: #19acca;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#our-philosophy p {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}
+
+/*------------------------------------------*/
+/*	Tabs
+/*------------------------------------------*/
+
+#tabs-holder p {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #999;
+}
+
+.nav-tabs > li > a {
+    color: #19acca;
+    font-size: 14px;
+	font-family:  sans-serif;
+    font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+.nav-tabs > li > a:hover {
+    border-color: #eee #eee #999;
+}
+
+
+/* ==========================================================================
+   07. TEAM
+   ========================================================================== */
+   
+#team {
+	padding-top: 70px;
+	padding-bottom: 50px;
+
+}
+ #myTab .next {
+    width: 19.6%;
+}
+
+#team .nav-tabs > li.active > a, .nav-tabs > li.active > .nav-tabs > li.active > a:focus {
+    background: #2C89C5 none repeat scroll 0 0;
+    border-color: #429CD5;
+    color: #fff;
+}
+
+/* ==========================================================================
+   08. PORTFOLIO
+   ========================================================================== */
+
+#portfolio {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.portfolio-items, .portfolio-filter {
+    list-style: outside none none;
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+.portfolio-filter > li a:hover, .portfolio-filter > li a.active{background:#185394 !important ;
+    border: 1px solid #185394 ;
+    box-shadow: none;
+    color: #fff;}
+
+.portfolio-filter > li {
+    display: inline-block;
+}
+.portfolio-filter{border-bottom:none;}
+.portfolio-filter > li a {
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+	padding:8px 15px;
+	color:#8c8b8c;
+    text-transform: uppercase;
+    transition: all 0.9s ease 0s;
+}
+.isopro {
+    width:20%;
+	float:left;
+}
+.recent-work-wrap .overlay:hover{opacity:0.6;background-color:#000;}
+#home-tab{display:none;}
+#profile-tab .active{background-color:#235B99}
+.recent-work-wrap img{margin:auto;}
+.recent-work-wrap1 img{margin:auto;}
+#team  .btn-default{border:none;}
+#myTab  .active a, #team  .btn-default:hover, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{background-color:#2c89c5;color:#fff}
+
+.recent-work-wrap .overlay { border-radius: 0; color: #fff; height: 100%; left: 0; padding: 45px 30px;position: absolute; 
+top: 0;vertical-align: middle;width: 100%;opacity:0;}
+.recent-work-wrap1 .overlay { border-radius: 0; color: #fff; height: 100%; left: 0; padding: 45px 30px;position: absolute; 
+top: 0;vertical-align: middle;width: 100%;}
+.pluss {width: 30px !important;}
+.overlay h3{color:#fff; font-size:18px;}
+.overlay  .inner_tab {padding:4.5em 0;}
+.overlay  .inner_tab  h3 {margin-bottom:20px}
+.overlay  .inner_tab  h3{font-size:28px; }
+.overlay  .inner_tab  p{font-size:20px;}
+.inner_tab .pluss {
+    width: 40px !important;
+}
+/* ==========================================================================
+   12. FAQs
+   ========================================================================== */
+ 
+#faq {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+
+/* ==========================================================================
+   16. FOOTER
+   ========================================================================== */
+
+#footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #2E2E2E;
+	color:#fff;
+}
+#footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.copyright {
+    text-align: center;
+	margin-top:18px;
+}
+.socialicon{float:right;margin-top:13px;}
+.copyright1 {
+    color: #2c89c5;
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   17. SCROLL TO TOP
+   ========================================================================== */
+
+#scrollUp {
+	display: none;
+	width: 48px;
+	height: 48px;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	background-image: url(../img/icons/back-to-top.png);
+	background-repeat: no-repeat;
+	background-position: 50% 48%;
+	background-color:rgba(123, 123, 123, 0.65);	
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-transition: all 250ms linear;
+	-moz-transition: all 250ms linear;
+	transition: all 250ms linear;	
+}
+
+#scrollUp:hover {
+	background-color: #429CD5;
+	opacity: 0.95;
+}
+
+nav a#pull {  
+    display: none;  
+}
+
+.portfolio-filter > li a:hover, .portfolio-filter > li a.active{background: #2c89c5 none repeat scroll 0 0;
+    border: 1px solid #2c89c5;
+    box-shadow: none;
+    color: #fff;}
+	.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{background: #2c89c5 none repeat scroll 0 0;
+    border: 1px solid #2c89c5;
+    box-shadow: none;
+    color: #fff;}
+
+/* ==========================================================================
+   18. CONTACT FORM RESPONSE PAGE   
+   ========================================================================== */
+   
+#form_response {
+	margin: 50px auto; 
+}
+
+#form_response .img-responsive { display: inline-block; }
+
+#form_response h1 {
+	font-size: 40px; 
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#form_response p {
+	font-size: 18px; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
